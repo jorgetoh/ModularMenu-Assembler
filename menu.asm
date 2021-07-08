@@ -86,11 +86,11 @@ main_menu_options:
 
 error_message:	.asciz "\n\33[1m\33[31mERROR:\33[0m The chosen option is not valid."
 
-opcion_1:	.ascii "\n\n\33[1m\33[32mOPCION #1 \33[0m| You have chosen the option 1, this option does nothing"
+opcion_1:	.ascii "\n\n\33[1m\33[32mOPTION #1 \33[0m| You have chosen the option 1, this option does nothing"
 		.asciz "\n          | I will send you back to the option menu...\n"
-opcion_2:	.ascii "\n\n\33[1m\33[32mOPCION #2 \33[0m| You have chosen the option 2, this option does nothing"
+opcion_2:	.ascii "\n\n\33[1m\33[32mOPTION #2 \33[0m| You have chosen the option 2, this option does nothing"
 		.asciz "\n          | I will send you back to the option menu...\n"
-opcion_3:	.ascii "\n\n\33[1m\33[32mOPCION #3 \33[0m| You have chosen the option 3, this option does nothing"
+opcion_3:	.ascii "\n\n\33[1m\33[32mOPTION #3 \33[0m| You have chosen the option 3, this option does nothing"
 		.asciz "\n          | I will send you back to the option menu...\n"
 		
 leave_message:	.asciz "\nClosing the program...\n"
