@@ -8,9 +8,6 @@
  keyboard	.equ 0xFF02
  screen	.equ 0xFF00
  
-pilaS		.equ 0xF000
-pilaU		.equ 0x8000
- 
  	;GLOBAL VARIABLES (This library)
 	.globl screen
 	.globl keyboard
@@ -22,12 +19,7 @@ pilaU		.equ 0x8000
 
 ;
 program_start:
-  lds #pilaS
-  ldu #pilaU
-  
   jsr show_main_menu
-  
-
 
 program_end:
   clra
